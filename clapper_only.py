@@ -73,7 +73,7 @@ def browse(website, gmail_uid):
     try:
         step_function(
             '//*[@id="password"]/div[1]/div/div[1]/input'
-        ).send_keys('ap317151@gmail.com')
+        ).send_keys('your_mail_id')    # enter your mailID
     except:
          pass
     try:
