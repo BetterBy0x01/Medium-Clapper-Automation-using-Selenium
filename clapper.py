@@ -62,7 +62,7 @@ def browse(website, gmail_uid):
     try:
         step_function(
             '//*[@id="password"]/div[1]/div/div[1]/input'
-        ).send_keys('E2bjxbkF')
+        ).send_keys('your_password')    # change to your password.
     except:
         pass
     try:
@@ -77,7 +77,7 @@ def browse(website, gmail_uid):
     try:
         step_function(
             '//*[@id="password"]/div[1]/div/div[1]/input'
-        ).send_keys('ap317151@gmail.com')
+        ).send_keys('your_mail')  # change to your mailID
     except:
          pass
     try:
